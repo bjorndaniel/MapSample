@@ -1,0 +1,9 @@
+{
+    "preset": "crockford",
+    "requireSpaceAfterKeywords" : [],
+    "requireSpaceBeforeBlockStatements" : false,
+    "requireSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowDanglingUnderscores": false
+}
