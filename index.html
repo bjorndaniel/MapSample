@@ -11,22 +11,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Latest compiled and minified CSS & JS -->
         <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css">
+        <link rel="stylesheet" href="/css/leaflet.awesome-markers.css"  />
+        <link rel="stylesheet" href="/css/site.css"  />
         <script src="//code.jquery.com/jquery.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+        <script type="text/javascript" src="/js/mapfunctions.js"></script>
+        <script type="text/javascript" src="/js/leaflet.awesomemarkers.js"></script>
+        <script type="text/javascript" src="/js/site.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <![endif]--> 
         <div class="container">
             <div class="text-center">
                 <h1>A leaflet.js demo</h1>
-                <div id="mapDiv">
-                    
+                
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="map" id="mapDiv">
+                        
+                    </div>
                 </div>
             </div>
         </div>
     </body>
+     
 </html>
