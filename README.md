@@ -1,5 +1,5 @@
 # MapSample
-A simple self-hosted Leaflet.js example
+A *simple* self-hosted Leaflet.js example
 
 To get started:
 1. Clone the repository
