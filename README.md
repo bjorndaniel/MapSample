@@ -1,5 +1,9 @@
 # MapSample
 A simple self-hosted Leaflet.js example
+Based on:
+ - <a href="http://leafletjs.com/">Leaflet.js</a>
+ - <a href="https://github.com/lvoogdt/Leaflet.awesome-markers">Leaflet awesome markers plug-in</a>
+ - <a href="http://getbootstrap.com">Twitter Bootstrap</a>
 
 To get started:
  1. Clone the repository
